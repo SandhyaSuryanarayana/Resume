@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+
+div.main {
+  border-style: hidden;
+  background-color: #29a3a3;
+  color: white;
+  text-align : left;
+}
+
+.image {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.name{
+    font-size:150%;
+    font-family: Sofia;
+}
+
+.objective{
+    font-size: 115%;
+}
+
+h4,p{
+    margin: 10px
+}
+
+hr{
+    margin-top: -15px
+}
+
+.column {
+  float: left;
+}
+.column.side {
+    width: 20%;
+    height: 100%;
+    line-height: 180%;
+    padding-bottom: 250px;
+    background-color:#ff4d4d;
+    color: white;
+}
+.column.middle {
+    width:75%;
+    padding: 20px;
+    align-content:space-around;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.education,.experience,.projects,
+.contact, .skills
+{
+    color: #00cccc;
+}
+
+div.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+tr:hover {background-color:#f5f5f5;}
