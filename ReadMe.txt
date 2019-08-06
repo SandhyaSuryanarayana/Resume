@@ -1,2 +1,2 @@
-Check the link to check the Published Webpage:
+Check the link to see the Published Resume:
 https://sandhyamukund.github.io/Resume/SandhyaResume/
